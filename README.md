@@ -56,16 +56,14 @@ uvicorn main:app --reload
 
 ## API Usage
 
-Once the server is running, navigate to: 👉 http://localhost:8000/docs
+Once the server is running, 
 
-FastAPI automatically generates an interactive Swagger UI.
-
-Expand the POST /api/v1/process-audio endpoint.
-
-Click Try it out.
-
-Upload any noisy .wav file.
-
-Click Execute.
+1. navigate to http://localhost:8000/docs →FastAPI automatically generates an interactive Swagger UI.
+2. Expand the POST /api/v1/process-audio endpoint.
+3. Click Try it out.
+4. Upload any noisy .wav file.
+5. Click Execute.
 
 The API will process the data and return a downloadable .zip file containing the cleaned audio and the spectral analysis plot.
+
+Thank you!
